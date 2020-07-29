@@ -8,17 +8,19 @@ Write API’s for basic CRUD operation on an entities/collection called Agency a
 
 
 *Agency*
+
     AgencyId, Name, Address1, Address2, State, City, Phone Number
     Beside Address2 all other fields are required.
+    
 *Client*
 	ClientId, AgencyId, Name, Email, PhoneNumber, TotalBill (all are required fields)
 
 Three RESTFUL API’s which will read/write to MongoDB with proper validation.
 
-	1. 1st API should create an agency and client in single request
-    2. 2nd API should update a client detail.
-	3. 3rd API should return name of agency along with client details which has top client(s) with maximum total bill, below fields should be part of response.
-    AgencyName, ClientName, TotalBill
+1. 1st API should create an agency and client in single request
+2. 2nd API should update a client detail.
+3. 3rd API should return name of agency along with client details which has top client(s) with maximum total bill, below fields should be part of response.
+   AgencyName, ClientName, TotalBill
 
 ## Installation
 
