@@ -1,0 +1,24 @@
+{
+  "name": "sample-app",
+  "version": "0.0.1",
+  "description": "Sample App with Authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Kapil Kumar",
+  "license": "Unlicense",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-jsonschema": "^1.1.6",
+    "express-swagger-generator": "^1.1.17",
+    "mongoose": "^4.9.9",
+    "morgan": "^1.10.0",
+    "njwt": "^0.4.0",
+    "pug": "^2.0.0-rc.1",
+    "secure-random": "^1.1.1"
+  }
+}
